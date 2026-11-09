@@ -1,0 +1,25 @@
+{
+  "name": "quizgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "importar-perguntas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costinha1510/QuizGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/costinha1510/QuizGame/issues"
+  },
+  "homepage": "https://github.com/costinha1510/QuizGame#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "parse": "^8.7.0"
+  }
+}

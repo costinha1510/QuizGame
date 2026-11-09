@@ -1,0 +1,1104 @@
+{
+ "results": [
+  {
+   "text": "O que significa a sigla PaaS?",
+   "options": [
+    "Program and Software System",
+    "Package as a Service",
+    "Page as a Server",
+    "Platform as a Service"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que significa a sigla BaaS?",
+   "options": [
+    "Base as a System",
+    "Backup and Storage",
+    "Backend as a Service",
+    "Browser as a Service"
+   ],
+   "correctIndex": 2,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que o modelo IaaS oferece?",
+   "options": [
+    "Apenas aplicativos prontos para uso",
+    "Apenas interfaces gráficas",
+    "Somente bancos de dados",
+    "Infraestrutura virtualizada, como servidores e redes"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Qual é um exemplo de SaaS?",
+   "options": [
+    "Um servidor físico próprio",
+    "Um cabo de rede",
+    "Gmail",
+    "Um roteador"
+   ],
+   "correctIndex": 2,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Qual destes NÃO é um grande provedor de nuvem pública?",
+   "options": [
+    "Amazon Web Services",
+    "Microsoft Azure",
+    "Google Cloud",
+    "Mozilla Firefox"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que é escalabilidade na nuvem?",
+   "options": [
+    "Comprar mais computadores físicos",
+    "Apagar dados antigos",
+    "Reduzir a velocidade da internet",
+    "Ajustar os recursos conforme a demanda"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Qual é o modelo de cobrança típico da nuvem?",
+   "options": [
+    "Sempre gratuito",
+    "Pagamento único vitalício",
+    "Pague pelo que usar (pay-as-you-go)",
+    "Cobrança por cor do site"
+   ],
+   "correctIndex": 2,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que é uma nuvem privada?",
+   "options": [
+    "Nuvem aberta a qualquer pessoa",
+    "Nuvem usada só para jogos",
+    "Infraestrutura usada exclusivamente por uma organização",
+    "Nuvem sem nenhum servidor"
+   ],
+   "correctIndex": 2,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que é uma nuvem híbrida?",
+   "options": [
+    "Combinação de nuvem pública e privada",
+    "Nuvem de um único computador",
+    "Nuvem que funciona só offline",
+    "Um tipo de antivírus"
+   ],
+   "correctIndex": 0,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O Back4App é construído sobre qual tecnologia?",
+   "options": [
+    "Photoshop",
+    "WordPress",
+    "Parse Server",
+    "Excel"
+   ],
+   "correctIndex": 2,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Para que serve o Cloud Code do Back4App?",
+   "options": [
+    "Instalar o Windows",
+    "Editar fotos",
+    "Imprimir documentos",
+    "Executar código no servidor sem gerenciar infraestrutura"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Qual serviço da AWS é usado para armazenamento de objetos?",
+   "options": [
+    "RDS",
+    "Lambda",
+    "EC2",
+    "S3"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que é o AWS Lambda?",
+   "options": [
+    "Um editor de vídeo",
+    "Um banco de dados relacional",
+    "Um serviço de computação serverless",
+    "Uma rede social"
+   ],
+   "correctIndex": 2,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que significa computação serverless?",
+   "options": [
+    "Só roda offline",
+    "Só roda em celulares",
+    "Não existem servidores",
+    "O desenvolvedor não gerencia os servidores"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Qual é uma vantagem da computação em nuvem?",
+   "options": [
+    "Elasticidade de recursos",
+    "Obrigação de comprar hardware",
+    "Custo inicial sempre altíssimo",
+    "Impossibilidade de acesso remoto"
+   ],
+   "correctIndex": 0,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que é virtualização?",
+   "options": [
+    "Formatação de disco",
+    "Criar versões virtuais de recursos, como servidores",
+    "Compactação de arquivos",
+    "Realidade aumentada"
+   ],
+   "correctIndex": 1,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Para que servem os contêineres, como o Docker?",
+   "options": [
+    "Substituir o monitor",
+    "Criar planilhas",
+    "Funcionar como antivírus",
+    "Empacotar uma aplicação com suas dependências"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que é o GitHub Codespaces?",
+   "options": [
+    "Uma rede social",
+    "Um antivírus",
+    "Um ambiente de desenvolvimento na nuvem",
+    "Um banco de dados"
+   ],
+   "correctIndex": 2,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "O que significa a sigla CDN?",
+   "options": [
+    "Controle de Nuvem",
+    "Código de Nome Digital",
+    "Central de Dados Nacionais",
+    "Content Delivery Network"
+   ],
+   "correctIndex": 3,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Qual modelo de serviço dá mais controle ao usuário sobre a infraestrutura?",
+   "options": [
+    "IaaS",
+    "SaaS",
+    "PaaS",
+    "Nenhum deles"
+   ],
+   "correctIndex": 0,
+   "category": "Computação em Nuvem"
+  },
+  {
+   "text": "Qual linguagem roda nativamente nos navegadores?",
+   "options": [
+    "JavaScript",
+    "C++",
+    "Java",
+    "Python"
+   ],
+   "correctIndex": 0,
+   "category": "Programação"
+  },
+  {
+   "text": "O que significa a sigla HTML?",
+   "options": [
+    "HyperText Markup Language",
+    "Home Tool Markup Language",
+    "HyperTransfer Main Link",
+    "High Tech Modern Language"
+   ],
+   "correctIndex": 0,
+   "category": "Programação"
+  },
+  {
+   "text": "Para que serve o CSS?",
+   "options": [
+    "Criar bancos de dados",
+    "Gerenciar servidores",
+    "Compilar programas",
+    "Estilizar páginas web"
+   ],
+   "correctIndex": 3,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual comando Git cria uma cópia local de um repositório remoto?",
+   "options": [
+    "git merge",
+    "git init-remote",
+    "git clone",
+    "git push"
+   ],
+   "correctIndex": 2,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual palavra declara uma constante em JavaScript?",
+   "options": [
+    "var",
+    "const",
+    "let",
+    "static"
+   ],
+   "correctIndex": 1,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual operador compara valor e tipo em JavaScript?",
+   "options": [
+    "=",
+    "=>",
+    "===",
+    "=="
+   ],
+   "correctIndex": 2,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual estrutura repete um bloco de código?",
+   "options": [
+    "return",
+    "switch",
+    "if",
+    "for"
+   ],
+   "correctIndex": 3,
+   "category": "Programação"
+  },
+  {
+   "text": "Como acessar o primeiro elemento de um array em JavaScript?",
+   "options": [
+    "arr[1]",
+    "arr(0)",
+    "arr[0]",
+    "arr.first"
+   ],
+   "correctIndex": 2,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual é o resultado de 2 + \"2\" em JavaScript?",
+   "options": [
+    "Erro",
+    "4",
+    "\"22\"",
+    "\"4\""
+   ],
+   "correctIndex": 2,
+   "category": "Programação"
+  },
+  {
+   "text": "O que significa a sigla JSON?",
+   "options": [
+    "JavaScript Object Notation",
+    "Java Standard Object Network",
+    "JavaScript Online Node",
+    "Joint Server Operation Notation"
+   ],
+   "correctIndex": 0,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual comando Git envia commits para o repositório remoto?",
+   "options": [
+    "git clone",
+    "git push",
+    "git status",
+    "git pull"
+   ],
+   "correctIndex": 1,
+   "category": "Programação"
+  },
+  {
+   "text": "Para que serve um Pull Request?",
+   "options": [
+    "Propor e revisar mudanças antes do merge",
+    "Criar uma conta",
+    "Baixar o projeto",
+    "Apagar um repositório"
+   ],
+   "correctIndex": 0,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual tag HTML cria um link?",
+   "options": [
+    "<a>",
+    "<link>",
+    "<p>",
+    "<img>"
+   ],
+   "correctIndex": 0,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual método converte um texto JSON em objeto em JavaScript?",
+   "options": [
+    "JSON.stringify()",
+    "JSON.read()",
+    "JSON.parse()",
+    "JSON.object()"
+   ],
+   "correctIndex": 2,
+   "category": "Programação"
+  },
+  {
+   "text": "O que é uma API?",
+   "options": [
+    "Aplicativo de Internet Privado",
+    "Área de Programação Interna",
+    "Interface de Programação de Aplicações",
+    "Arquivo de Processamento Integrado"
+   ],
+   "correctIndex": 2,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual código HTTP indica \"página não encontrada\"?",
+   "options": [
+    "200",
+    "500",
+    "301",
+    "404"
+   ],
+   "correctIndex": 3,
+   "category": "Programação"
+  },
+  {
+   "text": "Como se imprime uma mensagem na tela em Python?",
+   "options": [
+    "echo()",
+    "print()",
+    "console.write()",
+    "show()"
+   ],
+   "correctIndex": 1,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual comando SQL busca dados em uma tabela?",
+   "options": [
+    "SELECT",
+    "DROP",
+    "INSERT",
+    "UPDATE"
+   ],
+   "correctIndex": 0,
+   "category": "Programação"
+  },
+  {
+   "text": "O que é um bug?",
+   "options": [
+    "Um tipo de vírus de hardware",
+    "Um erro no funcionamento do software",
+    "Uma linguagem de programação",
+    "Um recurso novo"
+   ],
+   "correctIndex": 1,
+   "category": "Programação"
+  },
+  {
+   "text": "O que é uma branch no Git?",
+   "options": [
+    "Um servidor remoto",
+    "Um backup do computador",
+    "Um tipo de commit",
+    "Uma linha independente de desenvolvimento"
+   ],
+   "correctIndex": 3,
+   "category": "Programação"
+  },
+  {
+   "text": "Qual é a capital do Ceará?",
+   "options": [
+    "Salvador",
+    "Recife",
+    "Fortaleza",
+    "Natal"
+   ],
+   "correctIndex": 2,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é o maior país do mundo em área?",
+   "options": [
+    "China",
+    "Canadá",
+    "Rússia",
+    "Estados Unidos"
+   ],
+   "correctIndex": 2,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é o rio de maior volume de água do Brasil?",
+   "options": [
+    "Tocantins",
+    "São Francisco",
+    "Paraná",
+    "Amazonas"
+   ],
+   "correctIndex": 3,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é a capital da Austrália?",
+   "options": [
+    "Perth",
+    "Camberra",
+    "Melbourne",
+    "Sydney"
+   ],
+   "correctIndex": 1,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é o maior oceano do planeta?",
+   "options": [
+    "Atlântico",
+    "Pacífico",
+    "Ártico",
+    "Índico"
+   ],
+   "correctIndex": 1,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual continente tem mais países?",
+   "options": [
+    "Europa",
+    "África",
+    "América",
+    "Ásia"
+   ],
+   "correctIndex": 1,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é a capital do Japão?",
+   "options": [
+    "Seul",
+    "Osaka",
+    "Quioto",
+    "Tóquio"
+   ],
+   "correctIndex": 3,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é a montanha mais alta do mundo?",
+   "options": [
+    "K2",
+    "Mont Blanc",
+    "Monte Everest",
+    "Aconcágua"
+   ],
+   "correctIndex": 2,
+   "category": "Geografia"
+  },
+  {
+   "text": "Quantas unidades federativas o Brasil tem?",
+   "options": [
+    "30 estados",
+    "26 estados e o Distrito Federal",
+    "20 estados",
+    "27 estados sem o DF"
+   ],
+   "correctIndex": 1,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é a capital do Brasil?",
+   "options": [
+    "Rio de Janeiro",
+    "São Paulo",
+    "Salvador",
+    "Brasília"
+   ],
+   "correctIndex": 3,
+   "category": "Geografia"
+  },
+  {
+   "text": "Em qual continente fica o deserto do Saara?",
+   "options": [
+    "América do Sul",
+    "Ásia",
+    "Oceania",
+    "África"
+   ],
+   "correctIndex": 3,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual rio atravessa a cidade de Paris?",
+   "options": [
+    "Rio Tâmisa",
+    "Rio Reno",
+    "Rio Danúbio",
+    "Rio Sena"
+   ],
+   "correctIndex": 3,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual país tem formato de bota?",
+   "options": [
+    "Itália",
+    "Portugal",
+    "Grécia",
+    "Espanha"
+   ],
+   "correctIndex": 0,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é a maior ilha do mundo?",
+   "options": [
+    "Groenlândia",
+    "Islândia",
+    "Austrália",
+    "Madagascar"
+   ],
+   "correctIndex": 0,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é a capital da Argentina?",
+   "options": [
+    "Lima",
+    "Buenos Aires",
+    "Santiago",
+    "Montevidéu"
+   ],
+   "correctIndex": 1,
+   "category": "Geografia"
+  },
+  {
+   "text": "Em qual região do Brasil fica o Ceará?",
+   "options": [
+    "Nordeste",
+    "Centro-Oeste",
+    "Norte",
+    "Sudeste"
+   ],
+   "correctIndex": 0,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual linha imaginária divide a Terra em hemisfério norte e sul?",
+   "options": [
+    "Linha do Equador",
+    "Trópico de Câncer",
+    "Meridiano de Greenwich",
+    "Trópico de Capricórnio"
+   ],
+   "correctIndex": 0,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é o maior país da América do Sul?",
+   "options": [
+    "Argentina",
+    "Colômbia",
+    "Peru",
+    "Brasil"
+   ],
+   "correctIndex": 3,
+   "category": "Geografia"
+  },
+  {
+   "text": "Qual é a capital do Canadá?",
+   "options": [
+    "Vancouver",
+    "Montreal",
+    "Toronto",
+    "Ottawa"
+   ],
+   "correctIndex": 3,
+   "category": "Geografia"
+  },
+  {
+   "text": "As Cataratas do Iguaçu ficam na divisa do Brasil com qual país?",
+   "options": [
+    "Bolívia",
+    "Argentina",
+    "Peru",
+    "Chile"
+   ],
+   "correctIndex": 1,
+   "category": "Geografia"
+  },
+  {
+   "text": "Em que ano os portugueses chegaram ao Brasil?",
+   "options": [
+    "1492",
+    "1530",
+    "1822",
+    "1500"
+   ],
+   "correctIndex": 3,
+   "category": "História"
+  },
+  {
+   "text": "Quem proclamou a Independência do Brasil?",
+   "options": [
+    "Getúlio Vargas",
+    "Tiradentes",
+    "Dom Pedro I",
+    "Dom Pedro II"
+   ],
+   "correctIndex": 2,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano foi a Independência do Brasil?",
+   "options": [
+    "1500",
+    "1808",
+    "1822",
+    "1889"
+   ],
+   "correctIndex": 2,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano foi proclamada a República no Brasil?",
+   "options": [
+    "1889",
+    "1822",
+    "1930",
+    "1888"
+   ],
+   "correctIndex": 0,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano começou a Primeira Guerra Mundial?",
+   "options": [
+    "1905",
+    "1914",
+    "1918",
+    "1939"
+   ],
+   "correctIndex": 1,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano terminou a Segunda Guerra Mundial?",
+   "options": [
+    "1918",
+    "1939",
+    "1945",
+    "1950"
+   ],
+   "correctIndex": 2,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano ocorreu a Revolução Francesa?",
+   "options": [
+    "1492",
+    "1815",
+    "1789",
+    "1917"
+   ],
+   "correctIndex": 2,
+   "category": "História"
+  },
+  {
+   "text": "Quem foi o primeiro presidente do Brasil?",
+   "options": [
+    "Juscelino Kubitschek",
+    "Getúlio Vargas",
+    "Floriano Peixoto",
+    "Deodoro da Fonseca"
+   ],
+   "correctIndex": 3,
+   "category": "História"
+  },
+  {
+   "text": "Qual lei aboliu a escravidão no Brasil, em 1888?",
+   "options": [
+    "Lei Áurea",
+    "Lei dos Sexagenários",
+    "Lei do Ventre Livre",
+    "Lei Eusébio de Queirós"
+   ],
+   "correctIndex": 0,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano caiu o Muro de Berlim?",
+   "options": [
+    "1961",
+    "1989",
+    "1975",
+    "1991"
+   ],
+   "correctIndex": 1,
+   "category": "História"
+  },
+  {
+   "text": "Quem chegou à América em 1492?",
+   "options": [
+    "Vasco da Gama",
+    "Pedro Álvares Cabral",
+    "Fernão de Magalhães",
+    "Cristóvão Colombo"
+   ],
+   "correctIndex": 3,
+   "category": "História"
+  },
+  {
+   "text": "Qual civilização construiu as pirâmides de Gizé?",
+   "options": [
+    "Maia",
+    "Grega",
+    "Egípcia",
+    "Romana"
+   ],
+   "correctIndex": 2,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano começou a Era Vargas?",
+   "options": [
+    "1945",
+    "1964",
+    "1930",
+    "1889"
+   ],
+   "correctIndex": 2,
+   "category": "História"
+  },
+  {
+   "text": "Qual líder francês se coroou imperador em 1804?",
+   "options": [
+    "Charles de Gaulle",
+    "Napoleão Bonaparte",
+    "Robespierre",
+    "Luís XIV"
+   ],
+   "correctIndex": 1,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano começou a ditadura militar no Brasil?",
+   "options": [
+    "1985",
+    "1964",
+    "1945",
+    "1930"
+   ],
+   "correctIndex": 1,
+   "category": "História"
+  },
+  {
+   "text": "Qual era a capital do Império Romano?",
+   "options": [
+    "Constantinopla",
+    "Cartago",
+    "Atenas",
+    "Roma"
+   ],
+   "correctIndex": 3,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano o homem pisou na Lua pela primeira vez?",
+   "options": [
+    "1957",
+    "1975",
+    "1961",
+    "1969"
+   ],
+   "correctIndex": 3,
+   "category": "História"
+  },
+  {
+   "text": "Quem liderou a Inconfidência Mineira?",
+   "options": [
+    "Zumbi dos Palmares",
+    "Dom Pedro I",
+    "Duque de Caxias",
+    "Tiradentes"
+   ],
+   "correctIndex": 3,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano o Brasil conquistou seu primeiro título mundial de futebol?",
+   "options": [
+    "1958",
+    "1962",
+    "1950",
+    "1970"
+   ],
+   "correctIndex": 0,
+   "category": "História"
+  },
+  {
+   "text": "Em que ano foi promulgada a atual Constituição brasileira?",
+   "options": [
+    "1985",
+    "1988",
+    "1998",
+    "1964"
+   ],
+   "correctIndex": 1,
+   "category": "História"
+  },
+  {
+   "text": "Qual é o planeta mais próximo do Sol?",
+   "options": [
+    "Marte",
+    "Mercúrio",
+    "Terra",
+    "Vênus"
+   ],
+   "correctIndex": 1,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual é a fórmula química da água?",
+   "options": [
+    "H2O",
+    "O2",
+    "CO2",
+    "NaCl"
+   ],
+   "correctIndex": 0,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual gás é essencial para a respiração humana?",
+   "options": [
+    "Oxigênio",
+    "Gás carbônico",
+    "Nitrogênio",
+    "Hélio"
+   ],
+   "correctIndex": 0,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual órgão bombeia o sangue pelo corpo?",
+   "options": [
+    "Pulmão",
+    "Rim",
+    "Coração",
+    "Fígado"
+   ],
+   "correctIndex": 2,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual planeta é conhecido como Planeta Vermelho?",
+   "options": [
+    "Saturno",
+    "Vênus",
+    "Marte",
+    "Júpiter"
+   ],
+   "correctIndex": 2,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual é a menor unidade estrutural dos seres vivos?",
+   "options": [
+    "Átomo",
+    "Órgão",
+    "Célula",
+    "Tecido"
+   ],
+   "correctIndex": 2,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual força nos mantém presos à superfície da Terra?",
+   "options": [
+    "Magnetismo",
+    "Gravidade",
+    "Atrito",
+    "Inércia"
+   ],
+   "correctIndex": 1,
+   "category": "Ciências"
+  },
+  {
+   "text": "Como se chama o processo pelo qual as plantas produzem seu alimento?",
+   "options": [
+    "Respiração",
+    "Fermentação",
+    "Digestão",
+    "Fotossíntese"
+   ],
+   "correctIndex": 3,
+   "category": "Ciências"
+  },
+  {
+   "text": "Quantos ossos tem o corpo de um adulto?",
+   "options": [
+    "150",
+    "306",
+    "206",
+    "106"
+   ],
+   "correctIndex": 2,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual é o maior órgão do corpo humano?",
+   "options": [
+    "Intestino",
+    "Pele",
+    "Pulmão",
+    "Fígado"
+   ],
+   "correctIndex": 1,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual é o símbolo químico do ouro?",
+   "options": [
+    "Go",
+    "Au",
+    "Or",
+    "Ag"
+   ],
+   "correctIndex": 1,
+   "category": "Ciências"
+  },
+  {
+   "text": "A que temperatura a água ferve ao nível do mar?",
+   "options": [
+    "150 °C",
+    "90 °C",
+    "50 °C",
+    "100 °C"
+   ],
+   "correctIndex": 3,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual planeta é famoso por seus anéis?",
+   "options": [
+    "Vênus",
+    "Marte",
+    "Saturno",
+    "Mercúrio"
+   ],
+   "correctIndex": 2,
+   "category": "Ciências"
+  },
+  {
+   "text": "Onde fica localizado o DNA nas células humanas?",
+   "options": [
+    "No núcleo",
+    "No citoplasma apenas",
+    "Na parede celular",
+    "Na membrana"
+   ],
+   "correctIndex": 0,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual vitamina o corpo produz com a exposição ao sol?",
+   "options": [
+    "Vitamina D",
+    "Vitamina B12",
+    "Vitamina A",
+    "Vitamina C"
+   ],
+   "correctIndex": 0,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual é a fórmula do gás carbônico?",
+   "options": [
+    "H2O",
+    "CO2",
+    "CO",
+    "O3"
+   ],
+   "correctIndex": 1,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual é o satélite natural da Terra?",
+   "options": [
+    "Europa",
+    "Titã",
+    "Fobos",
+    "Lua"
+   ],
+   "correctIndex": 3,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual mamífero é capaz de voar?",
+   "options": [
+    "Pinguim",
+    "Esquilo",
+    "Avestruz",
+    "Morcego"
+   ],
+   "correctIndex": 3,
+   "category": "Ciências"
+  },
+  {
+   "text": "Qual é a unidade de medida de força no Sistema Internacional?",
+   "options": [
+    "Pascal",
+    "Joule",
+    "Newton",
+    "Watt"
+   ],
+   "correctIndex": 2,
+   "category": "Ciências"
+  },
+  {
+   "text": "Quais células do sangue transportam oxigênio?",
+   "options": [
+    "Leucócitos",
+    "Plaquetas",
+    "Neurônios",
+    "Hemácias"
+   ],
+   "correctIndex": 3,
+   "category": "Ciências"
+  }
+ ]
+}
