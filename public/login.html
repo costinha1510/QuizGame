@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre no CloudQuiz e teste seus conhecimentos.">
+  <title>Entrar | CloudQuiz</title><link rel="stylesheet" href="style.css">
+  <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script src="config.js"></script><script defer src="app.js"></script>
+</head>
+<body data-page="login">
+  <header class="topbar"><a class="brand" href="login.html"><span class="brand-mark">☁</span>CloudQuiz</a><button class="theme-toggle" type="button" data-theme-toggle>☾ Tema</button></header>
+  <main class="auth-layout">
+    <section class="hero-panel"><div><span class="hero-kicker">Conhecimento em movimento</span><h1>Aprenda.<br>Jogue.<br>Evolua.</h1><p>Desafie seus conhecimentos, acompanhe sua evolução e conquiste seu lugar no ranking do CloudQuiz.</p><div class="hero-points"><span>✦ 10 perguntas por partida</span><span>✦ Ranking global</span></div></div><small>CloudQuiz · Seu próximo desafio começa aqui.</small></section>
+    <section class="auth-card"><h2>Bem-vindo de volta!</h2><p class="subtitle">Entre na sua conta para continuar de onde parou.</p>
+      <div id="form-message" class="message" role="alert"></div>
+      <form id="login-form">
+        <div class="form-field"><label for="username">Nome de usuário</label><input id="username" name="username" type="text" autocomplete="username" required placeholder="Digite seu nome de usuário"></div>
+        <div class="form-field"><label for="password">Senha</label><input id="password" name="password" type="password" autocomplete="current-password" required placeholder="Digite sua senha"></div>
+        <a class="text-link" href="#" id="forgot-password">Esqueceu sua senha?</a>
+        <button class="btn" type="submit">Entrar na minha conta <span>→</span></button>
+      </form>
+      <p class="form-footer">Ainda não tem uma conta? <a href="register.html">Criar cadastro</a></p>
+    </section>
+  </main>
+</body></html>

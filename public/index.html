@@ -1,0 +1,235 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Painel do jogador CloudQuiz.">
+  <title>CloudQuiz | Painel do jogador</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script src="config.js"></script>
+  <script defer src="app.js"></script>
+</head>
+
+<body data-page="dashboard">
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">☁</span>
+      CloudQuiz
+    </a>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" data-theme-toggle>☾ Tema</button>
+      <button class="theme-toggle" type="button" id="logout-button">Sair</button>
+    </div>
+  </header>
+
+  <main class="dashboard">
+
+    <!-- PAINEL DO JOGADOR -->
+    <section class="dashboard-card" id="dashboard-screen">
+      <span class="hero-kicker" style="color:var(--primary)">Painel do jogador</span>
+
+      <h1>Olá, <span id="player-name">jogador</span>!</h1>
+
+      <p>
+        Pronto para colocar seus conhecimentos à prova?
+        Seu próximo desafio está esperando.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat">
+          <small>Sua melhor pontuação</small>
+          <strong id="best-score">0 <small>pts</small></strong>
+        </div>
+
+        <div class="stat">
+          <small>Questões por partida</small>
+          <strong>10</strong>
+        </div>
+      </div>
+
+      <div id="form-message" class="message" role="alert"></div>
+
+      <div class="dashboard-actions">
+        <button class="btn" id="start-quiz" type="button">
+          Começar quiz →
+        </button>
+
+        <button class="btn btn-secondary" id="open-ranking" type="button">
+          Ver ranking
+        </button>
+      </div>
+    </section>
+
+
+<!-- ESCOLHA DE CATEGORIA -->
+<section class="dashboard-card hidden" id="category-screen">
+
+  <span class="hero-kicker" style="color:var(--primary)">
+    Escolha seu desafio
+  </span>
+
+  <h1>Qual matéria deseja jogar?</h1>
+
+  <p>Escolha uma categoria e teste seus conhecimentos.</p>
+
+  <div class="category-grid">
+
+    <button class="category-card" data-category="Geografia">
+      <span>🌍</span>
+      <strong>Geografia</strong>
+      <small>Países, mapas e lugares</small>
+    </button>
+
+    <button class="category-card" data-category="Programação">
+      <span>💻</span>
+      <strong>Programação</strong>
+      <small>Lógica e desenvolvimento</small>
+    </button>
+
+    <button class="category-card" data-category="Computação em Nuvem">
+      <span>☁️</span>
+      <strong>Computação em Nuvem</strong>
+      <small>Tecnologia e serviços cloud</small>
+    </button>
+
+    <button class="category-card" data-category="História">
+      <span>📜</span>
+      <strong>História</strong>
+      <small>Fatos e acontecimentos</small>
+    </button>
+
+    <button class="category-card" data-category="Ciências">
+      <span>🔬</span>
+      <strong>Ciências</strong>
+      <small>Conhecimento científico</small>
+    </button>
+
+  </div>
+
+  <button class="btn btn-secondary category-back"
+          id="back-category" type="button">
+    ← Voltar ao painel
+  </button>
+
+</section>
+
+
+<!-- TELA DO RANKING -->
+<section class="dashboard-card hidden" id="ranking-screen">
+
+  <span class="hero-kicker" style="color:var(--primary)">
+    CLASSIFICAÇÃO
+  </span>
+
+  <h1>🏆 Ranking geral</h1>
+
+  <p>Confira os jogadores com as maiores pontuações.</p>
+
+  <div id="ranking-message" class="message"></div>
+
+  <div id="ranking-list" class="ranking-list">
+    <p>Carregando ranking...</p>
+  </div>
+
+  <button
+    class="btn btn-secondary"
+    id="back-ranking"
+    type="button">
+    ← Voltar ao painel
+  </button>
+
+</section>
+
+
+
+
+
+    <!-- TELA DO QUIZ -->
+    <section class="dashboard-card hidden" id="quiz-screen">
+
+      <div class="quiz-header">
+        <div>
+          <span class="hero-kicker" style="color:var(--primary)">Sua partida</span>
+          <h1>Vamos jogar!</h1>
+        </div>
+
+        <span class="quiz-counter" id="question-counter">Questão 1 de 10</span>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+
+      <p class="quiz-category" id="question-category"></p>
+
+      <h2 class="question-text" id="question-text"></h2>
+
+      <div class="answer-options" id="answer-options"></div>
+
+      <div id="quiz-message" class="message" role="alert"></div>
+
+      <div class="quiz-footer">
+        <span id="current-points">Pontuação: 0</span>
+
+        <button class="btn hidden" id="next-question" type="button">
+          Próxima questão →
+        </button>
+      </div>
+
+    </section>
+
+    <!-- TELA DE RESULTADO -->
+    <section class="dashboard-card hidden" id="result-screen">
+
+      <div class="result-content">
+        <span class="hero-kicker" style="color:var(--primary)">
+          Partida concluída
+        </span>
+
+        <h1>Parabéns!</h1>
+
+        <p>Você terminou sua partida no CloudQuiz.</p>
+
+        <div class="result-score">
+          <small>Sua pontuação</small>
+          <strong id="final-score">0</strong>
+          <span>de 100 pontos</span>
+        </div>
+
+        <div class="result-stats">
+          <div class="stat">
+            <small>Acertos</small>
+            <strong id="final-correct">0</strong>
+          </div>
+
+          <div class="stat">
+            <small>Erros</small>
+            <strong id="final-wrong">0</strong>
+          </div>
+        </div>
+
+        <div id="result-message" class="message" role="alert"></div>
+
+        <div class="dashboard-actions">
+          <button class="btn" id="play-again" type="button">
+            Jogar novamente →
+          </button>
+
+          <button class="btn btn-secondary" id="back-dashboard" type="button">
+            Voltar ao painel
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

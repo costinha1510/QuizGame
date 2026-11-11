@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crie sua conta gratuita no CloudQuiz.">
+  <title>Criar conta | CloudQuiz</title><link rel="stylesheet" href="style.css">
+  <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script src="config.js"></script><script defer src="app.js"></script>
+</head>
+<body data-page="register">
+  <header class="topbar"><a class="brand" href="login.html"><span class="brand-mark">☁</span>CloudQuiz</a><button class="theme-toggle" type="button" data-theme-toggle>☾ Tema</button></header>
+  <main class="auth-layout">
+    <section class="hero-panel"><div><span class="hero-kicker">Sua jornada começa agora</span><h1>Descubra o quanto você sabe.</h1><p>Crie sua conta, participe dos desafios e acompanhe sua melhor pontuação em um só lugar.</p><div class="hero-points"><span>✦ Cadastro gratuito</span><span>✦ Acompanhe seus pontos</span></div></div><small>CloudQuiz · Conhecimento que vira conquista.</small></section>
+    <section class="auth-card"><h2>Crie sua conta</h2><p class="subtitle">Preencha os dados abaixo para começar a jogar.</p>
+      <div id="form-message" class="message" role="alert"></div>
+      <form id="register-form">
+        <div class="form-field"><label for="name">Nome de exibição</label><input id="name" name="name" type="text" autocomplete="name" required maxlength="50" placeholder="Como quer aparecer no ranking?"></div>
+        <div class="form-field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="voce@exemplo.com"></div>
+        <div class="form-field"><label for="username">Nome de usuário</label><input id="username" name="username" type="text" autocomplete="username" required minlength="3" maxlength="20" placeholder="Escolha um usuário"></div>
+        <div class="form-field"><label for="password">Senha</label><input id="password" name="password" type="password" autocomplete="new-password" required minlength="8" placeholder="Mínimo de 8 caracteres"></div>
+        <button class="btn" type="submit">Criar minha conta <span>→</span></button>
+      </form>
+      <p class="form-footer">Já possui uma conta? <a href="login.html">Fazer login</a></p>
+    </section>
+  </main>
+</body></html>
