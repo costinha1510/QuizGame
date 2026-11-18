@@ -3,7 +3,7 @@
 **CloudQuiz** é uma plataforma de quizzes online desenvolvida como projeto acadêmico, com o objetivo de proporcionar uma experiência interativa de aprendizagem por meio de perguntas e respostas de diferentes categorias.
 
 O sistema permite que os usuários criem suas contas, escolham temas, respondam perguntas, acumulem pontos e acompanhem suas posições em um ranking global.
-
+- Link para Jogar = https://quizgame2-two.vercel.app/
 ## 🚀 Funcionalidades
 
 - **Cadastro de usuários:** criação de contas para acessar a plataforma.
@@ -16,7 +16,7 @@ O sistema permite que os usuários criem suas contas, escolham temas, respondam 
 - **Ranking global:** classificação dos jogadores de acordo com suas melhores pontuações.
 - **Jogar novamente:** possibilidade de iniciar uma nova partida.
 - **Interface interativa:** navegação entre as telas do sistema.
-- https://quizgame-black-beta.vercel.app/
+
 
 ## 📚 Categorias disponíveis
 
