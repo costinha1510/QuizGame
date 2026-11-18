@@ -16,6 +16,7 @@ O sistema permite que os usuários criem suas contas, escolham temas, respondam 
 - **Ranking global:** classificação dos jogadores de acordo com suas melhores pontuações.
 - **Jogar novamente:** possibilidade de iniciar uma nova partida.
 - **Interface interativa:** navegação entre as telas do sistema.
+- https://quizgame-black-beta.vercel.app/
 
 ## 📚 Categorias disponíveis
 
